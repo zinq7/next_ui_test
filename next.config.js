@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    assetPrefix: process.env.ASSET_PREFIX,
-    basePath: process.env.BASE_PATH,
+    assetPrefix: "/",
+    basePath: "/next_ui_test",
+    images: {
+        unoptimized: true,
+    },
 }
 
 module.exports = nextConfig
