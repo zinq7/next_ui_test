@@ -30,7 +30,6 @@ export const ScoreCard: FC<ScoreCardProps> = props => {
             <div className="flex content-center">
                 <Button className="grow h-32 text-5xl"
                     onClick={() => {
-                        console.log("wtfr");
                         props.show_update[1](false)
                     }}
                 > Click to reveal info</Button>
